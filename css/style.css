@@ -394,7 +394,7 @@ header {
 /* start landing -----------------> */
 
 .landing {
-  height: calc(100svh - 70px);
+  height: calc(100vh - 70px);
   position: relative;
 }
 .landing .container {
@@ -1350,7 +1350,7 @@ footer span:hover{
   }
   .landing{
     display: flex;
-    height: calc(100svh - 70px);
+    height: calc(100vh - 70px);
   }
 
   .landing .container{
