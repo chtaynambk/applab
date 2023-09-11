@@ -112,7 +112,7 @@ p {
   justify-content: center;
   background: black;
   z-index: 999;
-  /* display: none; */
+  display: none;
 
 
 }
@@ -1350,6 +1350,7 @@ footer span:hover{
   }
   .landing{
     display: flex;
+    height: calc(100svh - 70px);
   }
 
   .landing .container{

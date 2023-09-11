@@ -18,74 +18,46 @@ gsap.registerPlugin(ScrollTrigger);
   
 // });
 
-window.addEventListener("load", function () {
-  const loader = document.querySelector(".preloader");
-
-  // Check if the preloader has been displayed in this session
-  if (!sessionStorage.getItem('viewedPreloader')) {
-    // If not, display the preloader
-    loader.className += " hidden";
-    // Set a local storage flag to indicate that the preloader has been shown
-    sessionStorage.setItem('viewedPreloader', 'true');
-  } else {
-    // If the preloader has been shown in this session, hide it
-    loader.style.display = "none";
-
-   
-  
-  }
-
-});
 
 
 
 
-function playLandingPageAnimation() {
+function yourfunction() {
   var tl= gsap.timeline();
-  tl.from('.title h1 ',{
-      duration: 1.5,
-      translateY: 50,
-      opacity: 0,
-  
-  }),
-  tl.from('.title p ',{
-  
-    translateX: -50,
+tl.from('.title h1 ',{
+    duration: 1.5,
+    translateY: 50,
     opacity: 0,
-  
-  }),
-  tl.from('.demo',{
-  
-    translateY: -50,
+
+}),
+tl.from('.title p ',{
+
+  translateX: -50,
+  opacity: 0,
+
+}),
+tl.from('.demo',{
+
+  translateY: -50,
+  opacity: 0,
+
+}),
+tl.from('.ftitle',{
+
+    translateY: 50,
     opacity: 0,
-  
-  }),
-  tl.from('.ftitle',{
-  
-      translateY: 50,
-      opacity: 0,
-  
-  }),
-  
-  tl.from('.landbg',{
-  
-      translateX: 50,
-      opacity: 0,
-  
-  })
-  
+
+}),
+
+tl.from('.landbg',{
+
+    translateX: 50,
+    opacity: 0,
+
+})
+
 }
-
-window.onload = function () {
-  
-  playLandingPageAnimation();
-};
-
-
-// function yourfunction() {
-
-// }
-// window.onload = yourfunction;
+window.onload = yourfunction;
 
 
 
