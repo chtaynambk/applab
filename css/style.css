@@ -385,6 +385,7 @@ header {
   }
   .head .container .nav-menu li {
     margin-bottom: 10px;
+    margin-right: 0;
   }
   .head .container .nav-menu li .active::before {
     display: none;
@@ -1348,6 +1349,7 @@ footer span:hover{
   }
   .head .container .nav-menu .nav-link{
     color: var(--main-sub-color);
+    padding-right: 75%;
   }
   .landing{
     display: flex;
