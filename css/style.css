@@ -416,6 +416,7 @@ header {
   justify-content: flex-start;
   align-items: center;
   border-radius: 10px;
+  margin-bottom: 10vh;
 }
 .landing .container .title .ftitle i {
   font-size: 2.5rem;
@@ -1361,7 +1362,9 @@ footer span:hover{
     display: none;
   }
   .landing .container .title h1{
-    font-size: 2rem;
+    font-size: 3rem;
+    margin-bottom: 10vh;
+
   }
   .landing .container .title p{
     font-size: 1.3rem;
